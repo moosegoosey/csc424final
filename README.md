@@ -7,6 +7,7 @@ This project runs three containerized services:
 - **nginx** — Reverse proxy that routes traffic to frontend and backend
 
 ### Running Locally
+docker compose up --build -d
 - Frontend: http://localhost
 - Backend health check: http://localhost/api/ping
 - Port 80 is the only exposed port (via Nginx)
